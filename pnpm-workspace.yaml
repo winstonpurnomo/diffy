@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+allowBuilds:
+  "@bufbuild/buf": false
+  core-js-pure: false
+  esbuild: false
+  msw: false
+  unrs-resolver: false
